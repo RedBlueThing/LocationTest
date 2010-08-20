@@ -1,587 +1,0 @@
-TLocationTest
-v7
-r0
-t303787212.762432
-cCheck dependencies
-cCpResource build/Release-iphoneos/LocationTest.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/Info.plist LocationTest-Info.plist
-cCompileXIB /Users/tomh/dev/iPhone/LocationTest/MainWindow.xib
-cCompileXIB /Users/tomh/dev/iPhone/LocationTest/LocationTestViewController.xib
-cCopyPNGFile /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/default.png default.png
-cCompileXIB /Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.xib
-cCopyPNGFile /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/icon.png icon.png
-cProcessPCH /var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-hfuygtnaqfnsjkdbtlqthmsyuctp/LocationTest_Prefix.pch.gch LocationTest_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-gvsozyoxdkguyiduegsbfeurbaid/LocationTest_Prefix.pch.gch LocationTest_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/main.o /Users/tomh/dev/iPhone/LocationTest/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTestAppDelegate.o /Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTestViewController.o /Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LogViewController.o /Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/main.o /Users/tomh/dev/iPhone/LocationTest/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTestAppDelegate.o /Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTest normal armv6
-cCompileC build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTestViewController.o /Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LogViewController.o /Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTest normal armv7
-cCreateUniversalBinary /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/LocationTest normal "armv6 armv7"
-cGenerateDSYMFile /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app.dSYM /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/LocationTest
-cProcessProductPackaging "/Users/tomh/Library/MobileDevice/Provisioning Profiles/C7A9BACD-173C-4946-A309-A84CC28C7F9E.mobileprovision" /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/embedded.mobileprovision
-cTouch /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest.xcent
-cCodeSign /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app
-cValidate /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
-c000000004C639F1B0000000000000110
-t1281597211
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-c000000004C5B401F00000000000001A7
-t1281048607
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-c000000004C5B401F00000000000001E5
-t1281048607
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFE06FA000000000034A850
-t1274939130
-s3450960
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004C04706200000000000C1E70
-t1275359330
-s794224
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004C04705A00000000000001D0
-t1275359322
-s464
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFE07D200000000003E1EB0
-t1274939346
-s4071088
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFE07B10000000000001466
-t1274939313
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004C04800D00000000000002FE
-t1275363341
-s766
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004C0480330000000000267F90
-t1275363379
-s2523024
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C296E2A00000000000009CD
-t1277783594
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C296F120000000002D563E0
-t1277783826
-s47539168
-
-N/Users/tomh/Library/MobileDevice/Provisioning Profiles/C7A9BACD-173C-4946-A309-A84CC28C7F9E.mobileprovision
-c000000004C4FBDE50000000000001E78
-t1280294373
-s7800
-
-N/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.h
-c000000004C69DD850000000000000301
-t1282006405
-s769
-i<UIKit/UIKit.h>
-i<CoreLocation/CoreLocation.h>
-
-N/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m
-c000000004C6B352000000000000016F2
-t1282094368
-s5874
-i"LocationTestAppDelegate.h"
-i"LocationTestViewController.h"
-
-N/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestViewController.h
-c000000004C6347E5000000000000059C
-t1281574885
-s1436
-i<UIKit/UIKit.h>
-i<CoreLocation/CoreLocation.h>
-i<MapKit/MapKit.h>
-
-N/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestViewController.m
-c000000004C6392E70000000000001179
-t1281594087
-s4473
-i"LocationTestViewController.h"
-i"LogViewController.h"
-i"LocationTestAppDelegate.h"
-
-N/Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.h
-c000000004C63551300000000000001C4
-t1281578259
-s452
-i<UIKit/UIKit.h>
-
-N/Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.m
-c000000004C69DD7C00000000000013F6
-t1282006396
-s5110
-i"LogViewController.h"
-i"LocationTestAppDelegate.h"
-
-N/Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.xib
-c000000004C6355580000000000005FC2
-t1281578328
-s24514
-
-N/Users/tomh/dev/iPhone/LocationTest/LocationTestViewController.xib
-c000000004C6346D100000000000089B1
-t1281574609
-s35249
-
-N/Users/tomh/dev/iPhone/LocationTest/LocationTest_Prefix.pch
-c000000004C628EEB00000000000000C1
-t1281527531
-s193
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/tomh/dev/iPhone/LocationTest/MainWindow.xib
-c000000004C628EEB0000000000004E65
-t1281527531
-s20069
-
-N/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest.xcent
-t1282091686
-s430
-
-N/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTest
-t1282094411
-s40144
-
-N/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTest.LinkFileList
-c000000004C6B2A81000000000000022A
-t1282091649
-s554
-
-N/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTestAppDelegate.o
-t1282094411
-s62468
-
-N/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTestViewController.o
-t1282091683
-s62812
-
-N/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LogViewController.o
-t1282091683
-s51956
-
-N/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/main.o
-t1282091682
-s6432
-
-N/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTest
-t1282094411
-s40144
-
-N/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTest.LinkFileList
-c000000004C6B2A81000000000000022A
-t1282091649
-s554
-
-N/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTestAppDelegate.o
-t1282094411
-s62212
-
-N/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTestViewController.o
-t1282091684
-s62756
-
-N/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LogViewController.o
-t1282091684
-s51944
-
-N/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/main.o
-t1282091683
-s6412
-
-N/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/com.apple.build-tools.platform.validate
-t2
-s0
-
-N/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app
-t1282094412
-s476
-
-N/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app.dSYM
-t1282094411
-s102
-
-N/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/Info.plist
-t1282091649
-s818
-
-N/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/LocationTest
-t1282094411
-s85200
-
-N/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/LocationTestViewController.nib
-t1282091674
-s3217
-
-N/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/LogViewController.nib
-t1282091677
-s1512
-
-N/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/MainWindow.nib
-t1282091671
-s1133
-
-N/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/PkgInfo
-t1282091649
-s8
-
-N/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/ResourceRules.plist
-t1282091649
-s485
-
-N/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/default.png
-t1282091674
-s43530
-
-N/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/embedded.mobileprovision
-t1282091686
-s7800
-
-N/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/icon.png
-t1282091675
-s6730
-
-N/Users/tomh/dev/iPhone/LocationTest/default.png
-c000000004C62A5100000000000009BEA
-t1281533200
-s39914
-
-N/Users/tomh/dev/iPhone/LocationTest/icon.png
-c000000004C6349380000000000001914
-t1281575224
-s6420
-
-N/Users/tomh/dev/iPhone/LocationTest/main.m
-c000000004C628EEB000000000000016B
-t1281527531
-s363
-i<UIKit/UIKit.h>
-
-N/var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-gvsozyoxdkguyiduegsbfeurbaid/LocationTest_Prefix.pch.gch
-t1282091682
-s10090032
-
-N/var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-hfuygtnaqfnsjkdbtlqthmsyuctp/LocationTest_Prefix.pch.gch
-t1282091682
-s9631280
-
-NLocationTest-Info.plist
-c000000004C63494D00000000000003D1
-t1281575245
-s977
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies303787210#303787211#0(0"0(0#1#0"8661892192#0"0#
-
-CCodeSign /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app
-s303787211.752600
-e303787212.196957
-r1
-xCodeSign
-x/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app
-lSLF07#2@48"CodeSign build/Release-iphoneos/LocationTest.app303787211#303787212#0(0"0(0#0#75"/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app8661564032#667"    cd /Users/tomh/dev/iPhone/LocationTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Paul Hobkirk (992VYEKE7L)" --resource-rules=/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/ResourceRules.plist --entitlements /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest.xcent /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app0#
-
-CCompileC build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTestAppDelegate.o /Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s303787211.012004
-e303787211.490224
-r1
-xCompileC
-xbuild/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTestAppDelegate.o
-x/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m: In function '-[LocationTestAppDelegate log:]':
-o/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m:66: warning: 'cString' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:371)
-o/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m:67: warning: 'cString' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:371)
-lSLF07#2@77"Compile /Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m303787211#303787211#0(640"/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m: In function '-[LocationTestAppDelegate log:]':/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m:66: warning: 'cString' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:371)/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m:67: warning: 'cString' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:371)2(22@177"'cString' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:371)303787211#118#261#0(6@69"/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m303787168#66#0#66#0#33"'*' is deprecated (declared at *)0(22@177"'cString' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:371)303787211#379#261#0(6@69"/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m303787168#67#0#67#0#33"'*' is deprecated (declared at *)0(0#0#69"/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m8681497696#1896"    cd /Users/tomh/dev/iPhone/LocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-generated-files.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-own-target-headers.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-all-target-headers.hmap -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-project-headers.hmap -F/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos -I/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/include -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources/armv6 -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-hfuygtnaqfnsjkdbtlqthmsyuctp/LocationTest_Prefix.pch -c /Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m -o /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTestAppDelegate.o0#
-
-CCompileC build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTestViewController.o /Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s303784482.807175
-e303784483.448955
-r1
-xCompileC
-xbuild/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTestViewController.o
-x/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestViewController.m303784482#303784483#0(0"0(0#0#72"/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestViewController.m8647028288#1902"    cd /Users/tomh/dev/iPhone/LocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-generated-files.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-own-target-headers.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-all-target-headers.hmap -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-project-headers.hmap -F/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos -I/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/include -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources/armv6 -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-hfuygtnaqfnsjkdbtlqthmsyuctp/LocationTest_Prefix.pch -c /Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestViewController.m -o /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTestViewController.o0#
-
-CCompileC build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LogViewController.o /Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s303784482.997202
-e303784483.234160
-r1
-xCompileC
-xbuild/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LogViewController.o
-x/Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.m303784482#303784483#0(0"0(0#0#63"/Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.m8646652032#1884"    cd /Users/tomh/dev/iPhone/LocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-generated-files.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-own-target-headers.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-all-target-headers.hmap -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-project-headers.hmap -F/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos -I/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/include -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources/armv6 -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-hfuygtnaqfnsjkdbtlqthmsyuctp/LocationTest_Prefix.pch -c /Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.m -o /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LogViewController.o0#
-
-CCompileC build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/main.o /Users/tomh/dev/iPhone/LocationTest/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s303784482.678790
-e303784482.807042
-r1
-xCompileC
-xbuild/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/main.o
-x/Users/tomh/dev/iPhone/LocationTest/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@50"Compile /Users/tomh/dev/iPhone/LocationTest/main.m303784482#303784482#0(0"0(0#0#42"/Users/tomh/dev/iPhone/LocationTest/main.m8655143744#1850"    cd /Users/tomh/dev/iPhone/LocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-generated-files.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-own-target-headers.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-all-target-headers.hmap -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-project-headers.hmap -F/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos -I/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/include -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources/armv6 -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-hfuygtnaqfnsjkdbtlqthmsyuctp/LocationTest_Prefix.pch -c /Users/tomh/dev/iPhone/LocationTest/main.m -o /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTestAppDelegate.o /Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s303787211.080494
-e303787211.569467
-r1
-xCompileC
-xbuild/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTestAppDelegate.o
-x/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m: In function '-[LocationTestAppDelegate log:]':
-o/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m:66: warning: 'cString' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:371)
-o/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m:67: warning: 'cString' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:371)
-lSLF07#2@77"Compile /Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m303787211#303787211#0(640"/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m: In function '-[LocationTestAppDelegate log:]':/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m:66: warning: 'cString' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:371)/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m:67: warning: 'cString' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:371)2(22@177"'cString' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:371)303787211#118#261#0(6@69"/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m303787168#66#0#66#0#33"'*' is deprecated (declared at *)0(22@177"'cString' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:371)303787211#379#261#0(6@69"/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m303787168#67#0#67#0#33"'*' is deprecated (declared at *)0(0#0#69"/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m8659847904#1896"    cd /Users/tomh/dev/iPhone/LocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-generated-files.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-own-target-headers.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-all-target-headers.hmap -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-project-headers.hmap -F/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos -I/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/include -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources/armv7 -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-gvsozyoxdkguyiduegsbfeurbaid/LocationTest_Prefix.pch -c /Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m -o /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTestAppDelegate.o0#
-
-CCompileC build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTestViewController.o /Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s303784484.125998
-e303784484.578536
-r1
-xCompileC
-xbuild/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTestViewController.o
-x/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestViewController.m303784484#303784484#0(0"0(0#0#72"/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestViewController.m8647098656#1902"    cd /Users/tomh/dev/iPhone/LocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-generated-files.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-own-target-headers.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-all-target-headers.hmap -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-project-headers.hmap -F/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos -I/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/include -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources/armv7 -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-gvsozyoxdkguyiduegsbfeurbaid/LocationTest_Prefix.pch -c /Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestViewController.m -o /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTestViewController.o0#
-
-CCompileC build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LogViewController.o /Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s303784484.578643
-e303784484.977564
-r1
-xCompileC
-xbuild/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LogViewController.o
-x/Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.m303784484#303784484#0(0"0(0#0#63"/Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.m8642646304#1884"    cd /Users/tomh/dev/iPhone/LocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-generated-files.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-own-target-headers.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-all-target-headers.hmap -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-project-headers.hmap -F/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos -I/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/include -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources/armv7 -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-gvsozyoxdkguyiduegsbfeurbaid/LocationTest_Prefix.pch -c /Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.m -o /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LogViewController.o0#
-
-CCompileC build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/main.o /Users/tomh/dev/iPhone/LocationTest/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s303784483.234268
-e303784483.361304
-r1
-xCompileC
-xbuild/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/main.o
-x/Users/tomh/dev/iPhone/LocationTest/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@50"Compile /Users/tomh/dev/iPhone/LocationTest/main.m303784483#303784483#0(0"0(0#0#42"/Users/tomh/dev/iPhone/LocationTest/main.m8643890176#1850"    cd /Users/tomh/dev/iPhone/LocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-generated-files.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-own-target-headers.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-all-target-headers.hmap -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-project-headers.hmap -F/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos -I/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/include -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources/armv7 -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-gvsozyoxdkguyiduegsbfeurbaid/LocationTest_Prefix.pch -c /Users/tomh/dev/iPhone/LocationTest/main.m -o /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB /Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.xib
-s303784474.929418
-e303784477.781156
-r1
-xCompileXIB
-x/Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.xib
-lSLF07#2@40"CompileXIB Classes/LogViewController.xib303784474#303784477#0(0"0(0#0#65"/Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.xib8658363584#562"    cd /Users/tomh/dev/iPhone/LocationTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/LogViewController.nib /Users/tomh/dev/iPhone/LocationTest/Classes/LogViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/tomh/dev/iPhone/LocationTest/LocationTestViewController.xib
-s303784449.666924
-e303784475.747722
-r1
-xCompileXIB
-x/Users/tomh/dev/iPhone/LocationTest/LocationTestViewController.xib
-lSLF07#2@41"CompileXIB LocationTestViewController.xib303784449#303784475#0(0"0(0#0#66"/Users/tomh/dev/iPhone/LocationTest/LocationTestViewController.xib8648990176#572"    cd /Users/tomh/dev/iPhone/LocationTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/LocationTestViewController.nib /Users/tomh/dev/iPhone/LocationTest/LocationTestViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/tomh/dev/iPhone/LocationTest/MainWindow.xib
-s303784449.666067
-e303784472.433370
-r1
-xCompileXIB
-x/Users/tomh/dev/iPhone/LocationTest/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib303784449#303784472#0(0"0(0#0#50"/Users/tomh/dev/iPhone/LocationTest/MainWindow.xib8650094112#540"    cd /Users/tomh/dev/iPhone/LocationTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/MainWindow.nib /Users/tomh/dev/iPhone/LocationTest/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCopyPNGFile /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/default.png default.png
-s303784472.433615
-e303784474.929187
-r1
-xCopyPNGFile
-x/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/default.png
-xdefault.png
-lSLF07#2@75"CopyPNGFile build/Release-iphoneos/LocationTest.app/default.png default.png303784472#303784474#0(0"0(0#0#47"/Users/tomh/dev/iPhone/LocationTest/default.png8647036000#560"    cd /Users/tomh/dev/iPhone/LocationTest    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/tomh/dev/iPhone/LocationTest/default.png /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/default.png0#
-
-CCopyPNGFile /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/icon.png icon.png
-s303784475.747822
-e303784475.841999
-r1
-xCopyPNGFile
-x/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/icon.png
-xicon.png
-lSLF07#2@69"CopyPNGFile build/Release-iphoneos/LocationTest.app/icon.png icon.png303784475#303784475#0(0"0(0#0#44"/Users/tomh/dev/iPhone/LocationTest/icon.png8660938272#554"    cd /Users/tomh/dev/iPhone/LocationTest    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/tomh/dev/iPhone/LocationTest/icon.png /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/icon.png0#
-
-CCpResource build/Release-iphoneos/LocationTest.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-s303784449.428000
-e303784449.625271
-r1
-xCpResource
-xbuild/Release-iphoneos/LocationTest.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist303784449#303784449#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8643608448#502"    cd /Users/tomh/dev/iPhone/LocationTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app0#
-
-CCreateUniversalBinary /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/LocationTest normal "armv6 armv7"
-s303787211.614598
-e303787211.618509
-r1
-xCreateUniversalBinary
-x/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/LocationTest
-xnormal
-xarmv6 armv7
-lSLF07#2@95"CreateUniversalBinary build/Release-iphoneos/LocationTest.app/LocationTest normal "armv6 armv7"303787211#303787211#0(0"0(0#0#47"/Users/tomh/dev/iPhone/LocationTest/armv6 armv78660697216#552"    cd /Users/tomh/dev/iPhone/LocationTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTest /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTest -output /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/LocationTest0#
-
-CGenerateDSYMFile /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app.dSYM /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/LocationTest
-s303787211.618602
-e303787211.739848
-r1
-xGenerateDSYMFile
-x/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app.dSYM
-x/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/LocationTest
-lSLF07#2@114"GenerateDSYMFile build/Release-iphoneos/LocationTest.app.dSYM build/Release-iphoneos/LocationTest.app/LocationTest303787211#303787211#0(0"0(0#0#88"/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/LocationTest8652786016#372"    cd /Users/tomh/dev/iPhone/LocationTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/LocationTest -o /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app.dSYM0#
-
-CLd /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTest normal armv6
-s303787211.490317
-e303787211.590804
-r1
-xLd
-x/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTest
-xnormal
-xarmv6
-lSLF07#2@135"Link /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTest303787211#303787211#0(0"0(0#0#0"8661554688#924"    cd /Users/tomh/dev/iPhone/LocationTest    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos -F/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos -filelist /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTest.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv6/LocationTest0#
-
-CLd /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTest normal armv7
-s303787211.570800
-e303787211.614341
-r1
-xLd
-x/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTest
-xnormal
-xarmv7
-lSLF07#2@135"Link /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTest303787211#303787211#0(0"0(0#0#0"8661085376#924"    cd /Users/tomh/dev/iPhone/LocationTest    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos -F/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos -filelist /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTest.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/Objects-normal/armv7/LocationTest0#
-
-CProcessInfoPlistFile /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/Info.plist LocationTest-Info.plist
-s303784449.541892
-e303784449.665953
-r1
-xProcessInfoPlistFile
-x/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/Info.plist
-xLocationTest-Info.plist
-lSLF07#2@31"Process LocationTest-Info.plist303784449#303784449#0(0"0(0#0#59"/Users/tomh/dev/iPhone/LocationTest/LocationTest-Info.plist8648898528#576"    cd /Users/tomh/dev/iPhone/LocationTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility LocationTest-Info.plist -genpkginfo /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/ResourceRules.plist -o /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/Info.plist0#
-
-CProcessPCH /var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-gvsozyoxdkguyiduegsbfeurbaid/LocationTest_Prefix.pch.gch LocationTest_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s303784477.807776
-e303784482.487251
-r1
-xProcessPCH
-x/var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-gvsozyoxdkguyiduegsbfeurbaid/LocationTest_Prefix.pch.gch
-xLocationTest_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile LocationTest_Prefix.pch303784477#303784482#0(0"0(0#0#59"/Users/tomh/dev/iPhone/LocationTest/LocationTest_Prefix.pch8655762912#1744"    cd /Users/tomh/dev/iPhone/LocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-generated-files.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-own-target-headers.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-all-target-headers.hmap -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-project-headers.hmap -F/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos -I/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/include -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources/armv7 -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/tomh/dev/iPhone/LocationTest/LocationTest_Prefix.pch -o /var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-gvsozyoxdkguyiduegsbfeurbaid/LocationTest_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-hfuygtnaqfnsjkdbtlqthmsyuctp/LocationTest_Prefix.pch.gch LocationTest_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s303784477.805473
-e303784482.678680
-r1
-xProcessPCH
-x/var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-hfuygtnaqfnsjkdbtlqthmsyuctp/LocationTest_Prefix.pch.gch
-xLocationTest_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile LocationTest_Prefix.pch303784477#303784482#0(0"0(0#0#59"/Users/tomh/dev/iPhone/LocationTest/LocationTest_Prefix.pch8609757312#1744"    cd /Users/tomh/dev/iPhone/LocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-generated-files.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-own-target-headers.hmap -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-all-target-headers.hmap -iquote /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest-project-headers.hmap -F/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos -I/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/include -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources/armv6 -I/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/tomh/dev/iPhone/LocationTest/LocationTest_Prefix.pch -o /var/folders/uR/uR+IdppzHtCiqobrGKE2i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocationTest_Prefix-hfuygtnaqfnsjkdbtlqthmsyuctp/LocationTest_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/tomh/Library/MobileDevice/Provisioning Profiles/C7A9BACD-173C-4946-A309-A84CC28C7F9E.mobileprovision" /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/embedded.mobileprovision
-s303784486.416916
-e303784486.488810
-r1
-xProcessProductPackaging
-x/Users/tomh/Library/MobileDevice/Provisioning Profiles/C7A9BACD-173C-4946-A309-A84CC28C7F9E.mobileprovision
-x/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/embedded.mobileprovision
-lSLF07#2@198"ProcessProductPackaging "/Users/tomh/Library/MobileDevice/Provisioning Profiles/C7A9BACD-173C-4946-A309-A84CC28C7F9E.mobileprovision" build/Release-iphoneos/LocationTest.app/embedded.mobileprovision303784486#303784486#0(0"0(0#0#100"/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/embedded.mobileprovision8651730016#423"    cd /Users/tomh/dev/iPhone/LocationTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/tomh/Library/MobileDevice/Provisioning Profiles/C7A9BACD-173C-4946-A309-A84CC28C7F9E.mobileprovision" -o /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest.xcent
-s303784486.535859
-e303784486.608297
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-x/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest.xcent
-lSLF07#2@192"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest.xcent303784486#303784486#0(0"0(0#0#115"/Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest.xcent8642658400#443"    cd /Users/tomh/dev/iPhone/LocationTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/tomh/dev/iPhone/LocationTest/build/LocationTest.build/Release-iphoneos/LocationTest.build/LocationTest.xcent0#
-
-CTouch /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app
-s303787211.740553
-e303787211.752390
-r1
-xTouch
-x/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app
-lSLF07#2@81"Touch /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app303787211#303787211#0(0"0(0#0#0"8667217312#265"    cd /Users/tomh/dev/iPhone/LocationTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app0#
-
-CValidate /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app
-s303787212.197044
-e303787212.762237
-r1
-xValidate
-x/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app
-owarning: Application failed codesign verification.  The signature was invalid, or it was not signed with an Apple submission certificate. (-19011)
-oExecutable=/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/LocationTest
-ocodesign_wrapper-0.7.9: using Apple CA for profile evaluation
-o/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app: valid on disk
-o/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app: satisfies its Designated Requirement
-otest-requirement: failed to satisfy code requirement(s)
-ocodesign_wrapper-0.7.9: failed to execute codesign(1)
-o - (null)
-o
-lSLF07#2@48"Validate build/Release-iphoneos/LocationTest.app303787212#303787212#0(635"warning: Application failed codesign verification.  The signature was invalid, or it was not signed with an Apple submission certificate. (-19011)Executable=/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app/LocationTestcodesign_wrapper-0.7.9: using Apple CA for profile evaluation/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app: valid on disk/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app: satisfies its Designated Requirementtest-requirement: failed to satisfy code requirement(s)codesign_wrapper-0.7.9: failed to execute codesign(1) - (null)1(22@138" Application failed codesign verification.  The signature was invalid, or it was not signed with an Apple submission certificate. (-19011)303787212#18446744073709551615#0#0(6@0"303787212#0#0#0#0#0"0(0#0#75"/Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app8673070240#374"    cd /Users/tomh/dev/iPhone/LocationTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/tomh/dev/iPhone/LocationTest/build/Release-iphoneos/LocationTest.app0#
-
