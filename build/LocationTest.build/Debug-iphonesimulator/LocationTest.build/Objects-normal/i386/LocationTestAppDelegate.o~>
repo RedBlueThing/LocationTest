@@ -1,0 +1,3 @@
+/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m: In function '-[LocationTestAppDelegate log:]':
+/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m:66: warning: 'cString' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:371)
+/Users/tomh/dev/iPhone/LocationTest/Classes/LocationTestAppDelegate.m:67: warning: 'cString' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:371)
