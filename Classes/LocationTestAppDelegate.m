@@ -88,7 +88,7 @@
 	{
 		// create a new manager and start checking for sig changes
 		[self log:@"didFinishLaunchingWithOptions location key"];
-		m_locManager = [[CLLocation alloc] init];
+		m_locManager = [[CLLocationManager alloc] init];
 		[self log:@"didFinishLaunchingWithOptions created manager"];
 		m_locManager.delegate = self;
 		[self log:@"didFinishLaunchingWithOptions set delegate"];
