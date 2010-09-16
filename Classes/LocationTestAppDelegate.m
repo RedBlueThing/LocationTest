@@ -42,9 +42,8 @@
 - (NSArray*) getLogArray
 {
 	NSString * fileName = [self locationPath];
-	NSString *content = [[NSString alloc] initWithContentsOfFile:fileName
-										usedEncoding:nil
-										error:nil];
+	NSString *content = [NSString stringWithContentsOfFile:fileName
+										usedEncoding:nil error:nil];
 	NSMutableArray * array = (NSMutableArray *)[content componentsSeparatedByString:@"\n"];
 	NSMutableArray * newArray = [[[NSMutableArray alloc] init] autorelease];
 	for (int i = 0; i < [array count]; i++)
